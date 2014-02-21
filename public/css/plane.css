@@ -506,157 +506,6 @@ body {
   width: 110px;
   overflow: hidden;
 }
-#concept {
-  width: 100%;
-  margin: 20px auto 10px auto;
-  padding: 0px;
-}
-#concept h2 {
-  font-size: 21px;
-  line-height: 31.5px;
-  font-size: 2.1pxrem;
-  line-height: 3.1500000000000004pxrem;
-  font-style: normal;
-  margin: 0px 0 0 0;
-  padding: 20px;
-  color: #f3f3f3;
-  text-align: left;
-}
-#concept p {
-  display: block;
-  width: 100%;
-  font-size: 16px;
-  line-height: 24px;
-  font-size: 1.6pxrem;
-  line-height: 2.4000000000000004pxrem;
-  font-style: normal;
-  margin: 0px auto;
-  padding: 10px 20px 10px 20px;
-  color: #f3f3f3;
-  text-align: left;
-  background-color: rgba(1, 22, 29, 0.1);
-  -webkit-border-radius: 2px;
-  -moz-border-radius: 2px;
-  border-radius: 2px;
-}
-#players h2 {
-  font-size: 21px;
-  line-height: 31.5px;
-  font-size: 2.1pxrem;
-  line-height: 3.1500000000000004pxrem;
-  font-style: normal;
-  margin: 0px 0 0 0;
-  padding: 20px;
-  color: #f3f3f3;
-  text-align: left;
-}
-#players ul {
-  list-style: none;
-  margin: 10px auto;
-  *zoom: 1;
-}
-#players ul:before,
-#players ul:after {
-  content: "";
-  display: table;
-}
-#players ul:after {
-  clear: both;
-}
-#players ul li {
-  float: left;
-  padding: 0;
-  margin: 0;
-  margin-right: 20px;
-  color: #f3f3f3;
-}
-#players ul li p {
-  font-size: 14px;
-  line-height: 21px;
-  font-size: 1.4rem;
-  line-height: 2.0999999999999996rem;
-  font-style: normal;
-  margin: 8px 0 0 0 ;
-  padding: 0;
-  color: #f3f3f3;
-}
-#players ul ul {
-  display: inline;
-  width: 100%;
-  margin: 4px 0 0 0;
-  padding: 0;
-  *zoom: 1;
-}
-#players ul ul:before,
-#players ul ul:after {
-  content: "";
-  display: table;
-}
-#players ul ul:after {
-  clear: both;
-}
-#players ul ul li {
-  *zoom: 1;
-  margin: 0;
-  padding: 0;
-}
-#players ul ul li:before,
-#players ul ul li:after {
-  content: "";
-  display: table;
-}
-#players ul ul li:after {
-  clear: both;
-}
-#players ul ul li p {
-  float: left;
-  padding: 0;
-  margin: 10px 10px 0 0px;
-}
-#players ul ul li p a {
-  color: #86e0fd;
-}
-#players .player {
-  width: 100%;
-  margin: 0 auto;
-  padding: 0 40px;
-}
-#players .player li {
-  float: left;
-  width: 20%;
-  margin: 5px 0 20px 0;
-  padding: 0;
-  color: #f3f3f3;
-}
-#players .player li img {
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin: 0 10px 0 0;
-  padding: 0;
-  object-fit: cover;
-  object-position: center center;
-}
-#players .player li p {
-  font-size: 14px;
-  line-height: 21px;
-  font-size: 1.4rem;
-  line-height: 2.0999999999999996rem;
-  font-style: normal;
-  margin: 0 ;
-  padding: 0;
-  color: #f3f3f3;
-}
-#players .player li a {
-  font-size: 14px;
-  line-height: 21px;
-  font-size: 1.4rem;
-  line-height: 2.0999999999999996rem;
-  font-style: normal;
-  margin: 0 ;
-  padding: 0;
-  color: #86e0fd;
-}
 #questionArea {
   display: block;
   position: relative;
@@ -1135,42 +984,6 @@ body {
   font-style: normal;
   display: inline;
   color: #22c6fb;
-}
-#questionArea #sponsor h2 {
-  font-size: 14px;
-  line-height: 21px;
-  font-size: 1.4pxrem;
-  line-height: 2.0999999999999996pxrem;
-  font-style: normal;
-  margin: 0px 0 0 0;
-  padding: 10px 10px;
-  color: #f3f3f3;
-  text-align: left;
-}
-#questionArea #sponsor ul {
-  list-style: none;
-  margin: 0 auto;
-  *zoom: 1;
-}
-#questionArea #sponsor ul:before,
-#questionArea #sponsor ul:after {
-  content: "";
-  display: table;
-}
-#questionArea #sponsor ul:after {
-  clear: both;
-}
-#questionArea #sponsor ul li {
-  float: none;
-  margin-right: 20px;
-}
-#questionArea #sponsor ul li a {
-  display: block;
-  margin: 0 auto;
-}
-#questionArea #sponsor ul li img {
-  display: block;
-  margin: 0 auto;
 }
 #tutorial {
   margin: 10px 0;
@@ -1753,23 +1566,7 @@ body {
   #questionArea .twitterTimelines .stream {
     height: 160px !important;
   }
-  #concept {
-    width: 98%;
-    margin: 0 auto;
-    padding: 0;
-  }
-  #concept p {
-    font-size: 10px;
-    line-height: 15px;
-    font-size: 1rem;
-    line-height: 1.5rem;
-    font-style: normal;
-    margin: 10px 0 0 0;
-    padding: 5px 0 5px 0;
-  }
-  #tutorial h2,
-  #sponsor h2,
-  #players h2 {
+  #tutorial h2 {
     dispaly: block;
     wdith: 100%;
     font-size: 14px;
@@ -1781,67 +1578,49 @@ body {
     padding: 0 2%;
     background-color: #0389b4;
   }
-  #tutorial ul,
-  #sponsor ul,
-  #players ul {
+  #tutorial ul {
     width: 96%;
     margin: 0 auto;
     padding: 0;
   }
-  #tutorial ul li,
-  #sponsor ul li,
-  #players ul li {
+  #tutorial ul li {
     width: 100%;
     margin: 10px auto 5px auto;
     float: none;
   }
-  #tutorial ul li h3,
-  #sponsor ul li h3,
-  #players ul li h3 {
+  #tutorial ul li h3 {
     font-size: 14px;
     line-height: 21px;
     font-size: 1.4rem;
     line-height: 2.0999999999999996rem;
     font-style: normal;
   }
-  #tutorial ul li p,
-  #sponsor ul li p,
-  #players ul li p {
+  #tutorial ul li p {
     font-size: 10px;
     line-height: 15px;
     font-size: 1rem;
     line-height: 1.5rem;
     font-style: normal;
   }
-  #tutorial ul li a,
-  #sponsor ul li a,
-  #players ul li a {
+  #tutorial ul li a {
     margin: 0;
     padding: 0;
   }
-  #tutorial ul li img,
-  #sponsor ul li img,
-  #players ul li img {
+  #tutorial ul li img {
     display: block;
     margin: 0 auto;
     width: 96%;
   }
-  #tutorial ul ul li p,
-  #sponsor ul ul li p,
-  #players ul ul li p {
+  #tutorial ul ul li p {
     margin: 0;
     padding: 0;
   }
-  #tutorial ul.attention,
-  #sponsor ul.attention,
-  #players ul.attention {
+  #tutorial ul.attention {
     margin: 0 auto;
     padding: 0;
     width: 96%;
   }
-  #tutorial ul.attention li,
-  #sponsor ul.attention li,
-  #players ul.attention li {
+  #tutorial ul.attention li {
     font-size: 10px;
     line-height: 15px;
     font-size: 1rem;
@@ -1851,66 +1630,12 @@ body {
     margin: 0;
     padding: 0;
   }
-  #tutorial ul.attention li p,
-  #sponsor ul.attention li p,
-  #players ul.attention li p {
+  #tutorial ul.attention li p {
     font-size: 10px;
     line-height: 15px;
     font-size: 1rem;
     line-height: 1.5rem;
     font-style: normal;
-  }
-  #tutorial ul.player,
-  #sponsor ul.player,
-  #players ul.player {
-    width: 96%;
-    margin: 0 auto;
-    padding: 0;
-  }
-  #tutorial ul.player li,
-  #sponsor ul.player li,
-  #players ul.player li {
-    width: 100%;
-    float: none;
-    margin: 4px 0;
-    padding: 0;
-    *zoom: 1;
-  }
-  #tutorial ul.player li:before,
-  #sponsor ul.player li:before,
-  #players ul.player li:before,
-  #tutorial ul.player li:after,
-  #sponsor ul.player li:after,
-  #players ul.player li:after {
-    content: "";
-    display: table;
-  }
-  #tutorial ul.player li:after,
-  #sponsor ul.player li:after,
-  #players ul.player li:after {
-    clear: both;
-  }
-  #tutorial ul.player li img,
-  #sponsor ul.player li img,
-  #players ul.player li img {
-    width: 30px;
-    height: 30px;
-  }
-  #tutorial ul.player li p,
-  #sponsor ul.player li p,
-  #players ul.player li p {
-    float: left;
-    line-height: 30px;
-    margin-right: 5px;
-  }
-  #tutorial ul.player li a,
-  #sponsor ul.player li a,
-  #players ul.player li a {
-    float: left;
-    line-height: 30px;
-  }
-  #sponsor h2 {
-    display: none;
   }
   #timelineArea h2 {
     dispaly: block;
